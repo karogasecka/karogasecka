@@ -1,0 +1,140 @@
+header {
+    width: 100vw;
+    padding: 2%;
+    background-color: black;
+    color: cornsilk;
+}
+nav {
+    color: #ffffff;
+}
+body {
+    background-color: black !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #ffffff !important;
+    overflow: auto;
+}
+ul{
+    float: right;
+}
+h2{
+    alignment: right !important;
+}
+span{
+    alignment: center;
+}
+footer{
+    background-color: #ffffff;
+    color: black;
+}
+.navbar-brand {
+    font-size: 3.5em !important;
+    color: #b18d52 !important;
+    margin-right: 1%;
+    font-weight: 100;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.navbar {
+    color: #ffffff;
+}
+
+.nav-link {
+    margin-left: auto;
+    color: #ffffff !important;
+    margin-inline: 50px;
+}
+
+#about {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+#project{
+    font-size: 2rem;
+    width: 100vw;
+    display: block;
+    font-weight: 100;
+
+}
+
+.img-responsive{
+    width: 25%;
+    height: auto;
+     display: inline-block;
+    border: 1px solid gray;
+    padding: 3px;
+    margin: 1%;
+}
+
+#work-grid {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border: 1px dotted black;
+    margin-bottom: 50px;
+}
+.grid-box {
+    background: rgba(128, 128, 128, 0);
+    height: 20rem;
+    width: 20rem;
+    margin: 6px;
+}
+.grid-box img {
+    width: 100%;
+    alignment: center;
+}
+
+img {
+    vertical-align: middle;
+    border: 1px solid grey;
+    padding: 3px;
+}
+
+#slide{
+    border: none;
+}
+.card-body{
+    background-color: black;
+}
+.card{
+    border-style: none;
+}
+.row{
+    margin: 5%;
+}
+
+#content {
+    display: inline;
+    height: 100%;
+    font-size: larger;
+}
+
+#nav, #feature, #footer {
+    background-color: #fffdfd;
+    padding: 1%;
+    margin: 1%;
+}
+
+.column1, .column2, .column3 {
+    font-size: 2rem;
+    font-weight: 200;
+    background-color: #ffffff;
+    width: 25%;
+    height: 100%;
+    margin: 4%;
+    display: inline-block;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    font-size: 1rem;
+}
+.col-sm{
+    text-align: center;
+    width: 30%;
+}
